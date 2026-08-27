@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: firstWalkCycle.ma
-//Last modified: Wed, Aug 26, 2026 08:46:49 PM
+//Last modified: Wed, Aug 26, 2026 08:57:36 PM
 //Codeset: 1252
 file -rdi 1 -ns "Ultimate_Walker_IK_v1_0_1" -rfn "Ultimate_Walker_IK_v1_0_1RN"
 		 -op "v=0;" -typ "mayaAscii" "D:/repositories/Essentials-class2026/DAGV1100and1200/Maya//scenes/Rigs/Ultimate_Walker_IK_v1.0.1.ma";
@@ -16,12 +16,12 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "0E9EFDE9-4CFE-5771-9F60-9E94B086FDE2";
+fileInfo "UUID" "FF0D00E6-4833-C963-EA33-3CBA1802DF4F";
 createNode transform -s -n "persp";
 	rename -uid "8D87EC05-40CB-24E0-CD56-2EA9DD0D7F7B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.6684702530652373 2.2635885195512486 -14.186965110080054 ;
-	setAttr ".r" -type "double3" -2.1383527296845517 -173.00000000008225 0 ;
+	setAttr ".t" -type "double3" 12.197877580817014 3.758908344216545 -7.3581719404590862 ;
+	setAttr ".r" -type "double3" -8.1383527296844331 -238.60000000008043 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "787B908B-4F5D-4E6B-5385-FAA0D013CEB2";
 	setAttr -k off ".v" no;
@@ -697,8 +697,8 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 0 -max 24 -ast 0 -aet 24 ";
 	setAttr ".st" 6;
 select -ne :time1;
-	setAttr ".o" 6;
-	setAttr ".unw" 6;
+	setAttr ".o" 12;
+	setAttr ".unw" 12;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
