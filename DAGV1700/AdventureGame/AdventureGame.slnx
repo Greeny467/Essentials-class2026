@@ -1,3 +1,5 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="com.ccadori.vectorforestscenery.Runtime.csproj" />
+  <Project Path="com.ccadori.vectorforestscenerydemo.Runtime.csproj" />
 </Solution>
